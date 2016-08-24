@@ -1,4 +1,7 @@
 # yifengtao.github.io
-Yifeng Tao's homepage
+Yifeng Tao's homepage: [yifengtao.github.io](yifengtao.github.io)
 
-*under construction currently...*
+*Under construction currently...*
+
+## When should will the first edition come out?
+Possibly at the end of Sept/2016.
