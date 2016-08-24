@@ -3,5 +3,5 @@ Yifeng Tao's homepage: [yifengtao.github.io](yifengtao.github.io)
 
 *Under construction currently...*
 
-## When will the first edition come out?
-Possibly at the end of Sept/2016.
+## When will the first version come out?
+Possibly at the end of Sep/2016.
