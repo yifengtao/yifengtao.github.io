@@ -1,5 +1,5 @@
 # yifengtao.github.io
-Yifeng Tao's homepage: [yifengtao.github.io](yifengtao.github.io)
+Yifeng Tao's homepage: [yifengtao.github.io](https://yifengtao.github.io)
 
 *Under construction currently...*
 
