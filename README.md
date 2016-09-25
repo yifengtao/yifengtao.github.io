@@ -4,4 +4,4 @@ Yifeng Tao's homepage: [yifengtao.github.io/index.html](https://yifengtao.github
 *Under construction...*
 
 Q: When will the first relative completed version come out?
-A: With high probability $1-\delta$
+A: With high probability $\delta$
