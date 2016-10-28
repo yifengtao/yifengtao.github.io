@@ -1,5 +1,5 @@
 # yifengtao.github.io
-Yifeng Tao's homepage at CMU: [http://www.cs.cmu.edu/afs/cs/user/yifengt/www/](http://www.cs.cmu.edu/afs/cs/user/yifengt/www/)
+Yifeng Tao's homepage at CMU: [http://www.cs.cmu.edu/~yifengt](http://www.cs.cmu.edu/~yifengt)
 
 [//]: # (Yifeng Tao's homepage: [yifengtao.github.io](https://yifengtao.github.io))
 
