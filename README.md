@@ -1,6 +1,8 @@
 # yifengtao.github.io
 Yifeng Tao's homepage: [yifengtao.github.io](https://yifengtao.github.io)
 
+[http://www.cs.cmu.edu/~yifengt]
+
 *Under construction...*
 
 Q: When will the first relative completed version come out?
