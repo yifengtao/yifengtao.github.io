@@ -1,4 +1,4 @@
-Deadlines of conference (and journals) in computational biology and machine learning:
+Deadlines of conference (and journals) in machine learning and computational biology:
 
 WABI: May 4, 2020
 NeurIPS: May 12, 2020
