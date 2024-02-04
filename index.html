@@ -188,12 +188,12 @@
       <div class="row">
         <div class="col-lg-10 mx-auto">
           <h3>Research: Machine Learning in Cancer Genomics</h3>
-          Cancer proceeds from the accumulation of genomic alterations, and develops into heterogeneous cell populations in an evolutionary process. Therefore, the prognoses of cancer patients, such as survival profile, metastasis, and drug response, are encoded by the large-volume genome data. Our research focuses on the personalized medicine of cancer with machine learning and phylogenetic models (<a href="#tao2021thesis-details" class="js-scroll-trigger">Thesis</a>):
+          Cancer proceeds from the accumulation of genomic alterations, and develops into heterogeneous cell populations in an evolutionary process. Therefore, the prognoses of cancer patients, such as survival profile, metastasis, and drug response, are encoded by the large-volume genome data. Our research focuses on the personalized medicine of cancer with machine learning and phylogenetic models (<a href="#tao2021thesis-details" class="js-scroll-trigger">Thesis</a>; <a href="#elcharif2024mloncology-details" class="js-scroll-trigger">Book</a>):
           <ul>
             <li><span class="title">Reliable phenotype inference of cancer through well-designed interpretable machine learning models.</span> 
-            By leveraging the power of large scale genomic data and external biomedical knowledge base, we have been working on deep learning models for the accurate inference of cancer phenotypes, including transcriptome expression levels (Genomic Impact Transformer; <a href="#tao2020git-details" class="js-scroll-trigger">GIT</a>), transcription factor activities (Chromatin-informed Inference of Transcriptional Regulators Using Self-attention mechanism; <a href="#tao2021citrus-details" class="js-scroll-trigger">CITRUS</a>), and drug resistance (Contextual Attention-based Drug REsponse: <a href="#tao2020cadre-details" class="js-scroll-trigger">CADRE</a>; Deep Learning-based Graph Regularized Matrix Factorization: <a href="#ren2022deepgrmf-details" class="js-scroll-trigger">DeepGRMF</a>). We addressed the interpretability of models through techniques such as attention mechanism to identify driver mutations and critical biomarkers.</li>
+            By leveraging the power of large scale genomic data and external biomedical knowledge base, we have been working on deep learning models for the accurate inference of cancer phenotypes, including transcriptome expression levels (Genomic Impact Transformer: <a href="#tao2020git-details" class="js-scroll-trigger">GIT</a>), transcription factor activities (Chromatin-informed Inference of Transcriptional Regulators Using Self-attention mechanism: <a href="#tao2021citrus-details" class="js-scroll-trigger">CITRUS</a>), and drug resistance (Contextual Attention-based Drug REsponse: <a href="#tao2020cadre-details" class="js-scroll-trigger">CADRE</a>; Deep Learning-based Graph Regularized Matrix Factorization: <a href="#ren2022deepgrmf-details" class="js-scroll-trigger">DeepGRMF</a>). We addressed the interpretability of models through techniques such as attention mechanism to identify driver mutations and critical biomarkers.</li>
             <li><span class="title">Revealing intra-/inter-tumor heterogeneity and mechanism of tumor progression via robust deconvolution and phylogenetic algorithms.</span>
-            We formulated the deconvolution of bulk tumor molecular data mathematically as a biologically inspired matrix factorization problem, and proposed a neural network (Neural Network Deconvolution; <a href="#tao2020nnd-details" class="js-scroll-trigger">NND</a>) and then an improved hybrid optimizer (Robust and Accurate Deconvolution: <a href="#tao2020rad-details" class="js-scroll-trigger">RAD</a>; RAD with single-cells: <a href="#lei2022rads-details" class="js-scroll-trigger">RADs</a>) to solve the problem robustly and accurately. 
+            We formulated the deconvolution of bulk tumor molecular data mathematically as a biologically inspired matrix factorization problem, and proposed a neural network (Neural Network Deconvolution: <a href="#tao2020nnd-details" class="js-scroll-trigger">NND</a>) and then an improved hybrid optimizer (Robust and Accurate Deconvolution: <a href="#tao2020rad-details" class="js-scroll-trigger">RAD</a>; RAD with single-cells: <a href="#lei2022rads-details" class="js-scroll-trigger">RADs</a>) to solve the problem robustly and accurately. 
             We developed and applied a Minimum Elastic Potential (<a href="#tao2019brm-details" class="js-scroll-trigger">MEP</a>) algorithm to reconstruct the evolutionary trajectory from the unmixed clones.<!--  Our ongoing projects focus on the integration of single-cell data for finer resolution of clone deconvolution and phylogeny inference (<a href="#lei2021fishheterogeneity-details" class="js-scroll-trigger">FISH-Deconv</a>). --> We utilized mixed integer linear programming to solve deconvolution from bulk genomic data (<a href="#lei2021fishheterogeneity-details" class="js-scroll-trigger">FISH-Deconv</a>; <a href="#fu2021scseqfish-details" class="js-scroll-trigger">Joint-Clustering</a>; <a href="#fu2022tusvext-details" class="js-scroll-trigger">TUSV-ext</a>).</li>
             <li><span class="title">Improving prognostic prediction of cancer by incorporating machine learning and evolutionary methods.</span> 
             Clinicians traditionally focused on the pathological features and driver-level genomic profiles to facilitate the treatment. However, it is possible that critical clones, instead of the bulk tumor as a whole, affect the prognoses. We explored the questions by integrating both the evolutionary mutational features, driver-level features, and clinical features to improve the prognostic prediction of cancer. We developed an L0-regularized Cox regression model (<a href="#tao2019cancerphylo-details" class="js-scroll-trigger">Phylo-Risk</a>), and found that the evolutionary features account for roughly 1/3 of all the available features, depending on cancer types and sequencing techniques.</li>
@@ -211,34 +211,9 @@
 
           <p>Note: * indicates equal contribution, <span>&#8224;</span> indicates co-corresponding author.</p>
 
-          <!--
-          <div class="row publication" id="elcharif2021ml4oncology-details">
-            <div class="col-md-5"><img class="paperimg" src="./paper/" alt="Paper image"></div>
-            <div class="col-md-7">
-                <div class="title">Machine Learning Applications in Cancer Genomics</div>
-                <div class="authors">
-                  <a class="author" href="https://www.researchgate.net/profile/Omar_El-Charif" target="_blank">Omar El-Charif</a>,
-                  <a class="author" href="http://www.cs.cmu.edu/~russells/" target="_blank">Russell Schwartz</a>, 
-                  <a class="author yt">Yifeng Tao</a>,
-                  <a class="author" href="https://scholar.google.com/citations?user=uybGsWoAAAAJ&hl=en" target="_blank">Ye Yuan</a> (alphabetical) 
-                </div>
-                <div class="authors">
-                  <a class="author" href="https://med.nyu.edu/faculty/barry-s-rosenstein" target="_blank">Barry Rosenstein</a>,
-                  <a class="author" href="https://www2.le.ac.uk/centres/cancer/people/dr-tim-rattay" target="_blank">Tim Rattay</a>, 
-                  <a class="author" href="https://scholar.google.com/citations?user=y_rFweEAAAAJ&hl=en" target="_blank">John Kang</a> (Eds.) 
-                </div>
-                <div>
-                  <span class="venue"><a href="" target="_blank" class="text-dark font-weight-bold">Machine Learning in Clinical Radiation Oncology: A Guide for Clinicians</a>. 2021.</span>
-                </div>
-                <div>
-                  <a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="" target="_blank" rel="noopener">Book chapter</a>
-                  <a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="paper/" target="_blank" rel="noopener">PDF</a>
-                  <a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="bibtex/" target="_blank" rel="noopener">bibtex</a>
-                </div>
-            </div>
-          </div>
-          -->
+          
 
+          
           <div class="row publication" id="tao2021thesis-details">
             <div class="col-md-5"><img class="paperimg" src="./paper/tao2021thesis-fig.png" alt="Paper image"></div>
             <div class="col-md-7">
@@ -254,6 +229,32 @@
                   <a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="paper/tao2021thesis.pdf" target="_blank" rel="noopener">PDF</a>
                   <a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="paper/tao2021thesis-slides.pdf" target="_blank" rel="noopener">Slides</a>
                   <a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="bibtex/tao2021thesis.bib" target="_blank" rel="noopener">bibtex</a>
+                </div>
+            </div>
+          </div>
+
+          <div class="row publication" id="elcharif2024mloncology-details">
+            <div class="col-md-5"><img class="paperimg" src="./paper/elcharif2024mloncology-fig.png" alt="Paper image"></div>
+            <div class="col-md-7">
+                <div class="title">Chapter 3 - Machine Learning Applications in Cancer Genomics</div>
+                <div class="authors">
+                  <a class="author" href="https://www.researchgate.net/profile/Omar_El-Charif" target="_blank">Omar El-Charif</a>,
+                  <a class="author" href="http://www.cs.cmu.edu/~russells/" target="_blank">Russell Schwartz</a>, 
+                  <a class="author" href="https://scholar.google.com/citations?user=uybGsWoAAAAJ&hl=en" target="_blank">Ye Yuan</a>,
+                  <a class="author yt">Yifeng Tao</a>
+                </div>
+                <div class="authors">
+                  Editor(s): <a class="author" href="https://scholar.google.com/citations?user=y_rFweEAAAAJ&hl=en" target="_blank">John Kang</a>,
+                  <a class="author" href="https://www.researchgate.net/profile/Tim-Rattay-2" target="_blank">Tim Rattay</a>, 
+                  <a class="author" href="https://profiles.mountsinai.org/barry-s-rosenstein" target="_blank">Barry S. Rosenstein</a>
+                </div>
+                <div>
+                  <span class="venue"><a href="https://www.sciencedirect.com/book/9780128220009/machine-learning-and-artificial-intelligence-in-radiation-oncology" target="_blank" class="text-dark font-weight-bold">Machine Learning and Artificial Intelligence in Radiation Oncology</a>. 41-72. 2024.</span>
+                </div>
+                <div>
+                  <a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://www.sciencedirect.com/science/article/pii/B9780128220009000069" target="_blank" rel="noopener">Paper</a>
+                  <a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="paper/elcharif2024mloncology.pdf" target="_blank" rel="noopener">PDF</a>
+                  <a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="bibtex/elcharif2024mloncology.bib" target="_blank" rel="noopener">bibtex</a>
                 </div>
             </div>
           </div>
@@ -775,10 +776,10 @@
       <div class="row">
         <div class="col-lg-10 mx-auto">
           <h3>Misc</h3>
-
-
           <h5>Reviewer</h5>
           <ul>
+            <li>Reviewer for <a href="https://www.science.org/journal/sciadv" target="_blank">Science Advances</a>, 2024</li>
+            <li>Reviewer for <a href="https://academic.oup.com/bioinformatics" target="_blank">Bioinformatics</a>, 2024</li>
             <li>Reviewer for <a href="https://journals.plos.org/ploscompbiol/" target="_blank">PLOS Computational Biology</a>, 2023</li>
             <li>Reviewer for <a href="https://www.frontiersin.org/journals/immunology" target="_blank">Frontiers in Immunology</a>, 2023</li>
             <li>Reviewer for <a href="https://sites.google.com/view/itah-iui2023/home" target="_blank">ACM IUI Interactive Technologies for AI in Healthcare (IUI-ITAH)</a>, 2023</li>
